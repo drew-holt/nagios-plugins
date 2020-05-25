@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use lib qw( /usr/lib/nagios/plugins );
+use lib qw( /usr/lib64/nagios/plugins );
 use utils qw(%ERRORS $TIMEOUT &print_revision &support &usage);
 
 my $result;
